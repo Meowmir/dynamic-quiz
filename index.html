@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Dynamic Quiz</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<header>
+    <h1>Dynamic Quiz</h1>
+</header>
 
-<div id="box">
-    <div id="title">
-        <h1>Dynamic Quiz</h1>
-    </div>
-
-    <div id="quiz">
-        <div class="button" id="next"><a href="#">Next</a></div>
-        <div class="button" id="prev"><a href="#">Previous</a></div>
-        <div class="button" id="start"><a href="#">Start over</a></div>
-    </div>
+<div class="box">
+    <div class="firstPartQ" id="p1Q">In the gaming community, what does</div>
+    <div class="quiz" id="q"></div>
+    <div class="secondPartQ" id="p2Q">stand for?</div>
+    <div class="button" id="next"><a href="#">Next</a></div>
+    <div class="button" id="prev"><a href="#">Previous</a></div>
+    <div class="button" id="start"><a href="#">Start over</a></div>
 </div>
 
 <script src="app.js" charset="utf-8"></script>
